@@ -1,0 +1,7 @@
+# PS1='%n@%m %~$ '
+PROMPT="%F{magenta}%n%f@%F{cyan}%m%f %F{yellow}%~%f%% "
+setopt append_history
+setopt share_history
+EDITOR=$(which vim)
+GITHUB_USERNAME=trevordixon
+
